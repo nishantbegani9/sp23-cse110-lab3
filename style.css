@@ -1,0 +1,180 @@
+/* Import the Roboto Mono font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* Apply a background color to the body element for screen widths up to 2250px */
+@media (max-width: 2250px) {
+body {
+   background-color: #a1946d;
+}
+}
+
+/* Apply a background color to the body element for screen widths up to 2250px */
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Style for heading level 1 */
+h1 {
+   
+    margin-left: 20px;
+    margin-top: 5mm;
+}
+
+/* Style for heading level 2 */
+h2 {
+    color: navy; 
+    margin-right: 20vh;
+}
+
+/* Style for heading level 3 */
+h3 {
+    color: hsl(103, 43%, 24%);
+    margin: 1vw 1pc 1vw 1pc;  
+}
+
+/* Center the main element horizontally */
+main{
+    margin: auto;
+}
+
+/* Style for audio element */
+audio {
+    padding: 30px 20px 60px 75px;
+    display: inline-block;
+    margin-bottom: auto;
+}
+
+/* Style for video element */
+video{
+    padding-left: 75px;
+    padding-top: 2px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+    display:inline;
+    max-width: 500px;
+    min-width: none;
+}
+
+/* Style for a summary box */
+.Summary-box{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: .1rem;
+}
+
+/* Style for text decoration */
+.textdec{
+    color: black;
+    text-decoration: overline underline;
+    text-align: left;
+} 
+
+/* Style for image */
+img {
+    display: block;
+    margin: auto;
+}
+
+/* Style for class N */
+.N{
+    display: none; 
+}
+
+/* Style for a box */
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: static;
+    top: 20px;
+    left: 20px;
+    background: orange;
+}
+
+/* Style for element with id ex2 */
+#ex2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;
+}
+
+/* Style for links on hover */
+a:hover{
+    color: rgb(241, 11, 11); 
+}
+
+/* Style for button on active */
+button:active{
+    box-shadow: 5px;
+}
+
+/* Style for form */
+form {
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* Style for paragraphs */
+.paragh {
+    font-size: 15px;
+}
+
+/* Style for navigation unordered list */
+nav ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding:10px;
+    list-style: none;
+}
+
+/* Style for navigation unordered list items */
+nav ul li a{ 
+    text-decoration: none;
+    margin-right: 10PX;
+}
+
+/* Style for form with grid display */
+form {
+    display: grid;
+}
+
+/* Style for container with grid display */
+.container {
+    display: grid;
+}
+
+/* Style for audio and video elements with border */
+audio, video{
+    
+    border-style: dotted;
+    border-color: rgb(105, 79, 79);
+    border-radius: 5cm;
+}
+
+ul li {
+    color: rgb(35, 37, 32);
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h2 ~ p {
+    font-style: italic;
+}
+
+h3 + p {
+    color: red;
+}
+
+h1.title {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
