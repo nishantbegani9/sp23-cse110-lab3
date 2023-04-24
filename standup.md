@@ -29,11 +29,6 @@
 - [Obstacle 2]: [Description]
 - [Obstacle 3]: [Description]
 
-### Plan for next 24 hours:
-- [Task 1]: [Plan]
-- [Task 2]: [Plan]
-- [Task 3]: [Plan]
-
 ## Action Items:
 - [Action item 1]: [Assigned to]
 - [Action item 2]: [Assigned to]
